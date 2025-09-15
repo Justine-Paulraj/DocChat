@@ -43,6 +43,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['docchat1.onrender.com']
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://docchat1.onrender.com",
+]
 
 # Application definition
 
@@ -140,5 +143,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
 
