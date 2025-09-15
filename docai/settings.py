@@ -41,7 +41,7 @@ SECRET_KEY = 'django-insecure-p7%ru&r^7+pw+@b0!an(@afyurkf*^n#9=p%iuju4gc*ij6+*c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["docchat1.onrender.com"]
+ALLOWED_HOSTS = ['docchat1.onrender.com']
 
 
 # Application definition
@@ -140,4 +140,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
